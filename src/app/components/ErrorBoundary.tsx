@@ -4,12 +4,10 @@ import React, { useState } from 'react';
 function ErrorBoundary({ children }: { children: React.ReactNode }) {
   const [error, setError] = useState(null);
 
-  // Reset the error state
   const resetError = () => {
     setError(null);
   };
 
-  // Error boundary logic
   if (error) {
     return (
       <div>
@@ -20,7 +18,6 @@ function ErrorBoundary({ children }: { children: React.ReactNode }) {
     );
   }
 
-  // If no error, render children as usual
   return children;
 }
 

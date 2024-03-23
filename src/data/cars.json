@@ -1,52 +1,182 @@
 [
-    {
-      "model":"Tesla Model S",
-      "car_id": "car01",
-      "type":"electrical",
-      "wheels":"standard",
-      "parts":[
-        "battery",
-        "electric motor",
-        "chassis",
-        "interior components"
-      ]
-    },
-    {
-      "model":"Ferrari 488 GTB",
-      "car_id": "car02",
-      "type":"sport",
-      "wheels":"sport",
-      "parts":[
-        "engine",
-        "transmission",
-        "suspension",
-        "brakes",
-        "aerodynamic components"
-      ]
-    },
-    {
-      "model":"Audi e-tron",
-      "car_id": "car03",
-      "type":"electrical",
-      "wheels":"sport",
-      "parts":[
-        "battery pack",
-        "electric motors",
-        "chassis",
-        "interior components"
-      ]
-    },
-    {
-      "model":"Porsche 911",
-      "car_id": "car04",
-      "type":"sport",
-      "wheels":"standard",
-      "parts":[
-        "engine",
-        "transmission",
-        "suspension",
-        "brakes",
-        "aerodynamic components"
-      ]
-    }
-  ]
+  {
+    "model": "Tesla Model S",
+    "car_id": "car01",
+    "type": "electrical",
+    "wheels": "standard",
+    "parts": [
+      "battery",
+      "electric motor",
+      "chassis",
+      "interior components"
+    ]
+  },
+  {
+    "model": "Ferrari 488 GTB",
+    "car_id": "car02",
+    "type": "sport",
+    "wheels": "sport",
+    "parts": [
+      "engine",
+      "transmission",
+      "suspension",
+      "brakes",
+      "aerodynamic components"
+    ]
+  },
+  {
+    "model": "Audi e-tron",
+    "car_id": "car03",
+    "type": "electrical",
+    "wheels": "sport",
+    "parts": [
+      "battery pack",
+      "electric motors",
+      "chassis",
+      "interior components"
+    ]
+  },
+  {
+    "model": "Porsche 911",
+    "car_id": "car04",
+    "type": "sport",
+    "wheels": "standard",
+    "parts": [
+      "engine",
+      "transmission",
+      "suspension",
+      "brakes",
+      "aerodynamic components"
+    ]
+  },
+  {
+    "model": "Tesla Model 3",
+    "car_id": "car05",
+    "type": "electrical",
+    "wheels": "standard",
+    "parts": [
+      "battery pack",
+      "electric motor",
+      "chassis",
+      "interior components"
+    ]
+  },
+  {
+    "model": "Toyota Camry",
+    "car_id": "car06",
+    "type": "non-electrical",
+    "wheels": "standard",
+    "parts": [
+      "engine",
+      "transmission",
+      "suspension",
+      "brakes",
+      "interior components"
+    ]
+  },
+  {
+    "model": "BMW i8",
+    "car_id": "car07",
+    "type": "electrical",
+    "wheels": "sport",
+    "parts": [
+      "battery pack",
+      "electric motors",
+      "chassis",
+      "aerodynamic components",
+      "interior components"
+    ]
+  },
+  {
+    "model": "Ford Mustang",
+    "car_id": "car08",
+    "type": "non-electrical",
+    "wheels": "sport",
+    "parts": [
+      "engine",
+      "transmission",
+      "suspension",
+      "brakes",
+      "aerodynamic components",
+      "interior components"
+    ]
+  },
+  {
+    "model": "Nissan Leaf",
+    "car_id": "car09",
+    "type": "electrical",
+    "wheels": "standard",
+    "parts": [
+      "battery pack",
+      "electric motor",
+      "chassis",
+      "interior components"
+    ]
+  },
+  {
+    "model": "Chevrolet Corvette",
+    "car_id": "car010",
+    "type": "non-electrical",
+    "wheels": "sport",
+    "parts": [
+      "engine",
+      "transmission",
+      "suspension",
+      "brakes",
+      "aerodynamic components",
+      "interior components"
+    ]
+  },
+  {
+    "model": "Jaguar I-PACE",
+    "car_id": "car11",
+    "type": "electrical",
+    "wheels": "sport",
+    "parts": [
+      "battery pack",
+      "electric motors",
+      "chassis",
+      "aerodynamic components",
+      "interior components"
+    ]
+  },
+  {
+    "model": "Honda Civic",
+    "car_id": "car012",
+    "type": "non-electrical",
+    "wheels": "standard",
+    "parts": [
+      "engine",
+      "transmission",
+      "suspension",
+      "brakes",
+      "interior components"
+    ]
+  },
+  {
+    "model": "Porsche Taycan",
+    "car_id": "car13",
+    "type": "electrical",
+    "wheels": "sport",
+    "parts": [
+      "battery pack",
+      "electric motors",
+      "chassis",
+      "aerodynamic components",
+      "interior components"
+    ]
+  },
+  {
+    "model": "Mercedes-Benz S-Class",
+    "car_id": "car014",
+    "type": "non-electrical",
+    "wheels": "standard",
+    "parts": [
+      "engine",
+      "transmission",
+      "suspension",
+      "brakes",
+      "interior components"
+    ]
+  }
+]
