@@ -1,0 +1,52 @@
+[
+    {
+      "model":"Tesla Model S",
+      "car_id": "car01",
+      "type":"electrical",
+      "wheels":"standard",
+      "parts":[
+        "battery",
+        "electric motor",
+        "chassis",
+        "interior components"
+      ]
+    },
+    {
+      "model":"Ferrari 488 GTB",
+      "car_id": "car02",
+      "type":"sport",
+      "wheels":"sport",
+      "parts":[
+        "engine",
+        "transmission",
+        "suspension",
+        "brakes",
+        "aerodynamic components"
+      ]
+    },
+    {
+      "model":"Audi e-tron",
+      "car_id": "car03",
+      "type":"electrical",
+      "wheels":"sport",
+      "parts":[
+        "battery pack",
+        "electric motors",
+        "chassis",
+        "interior components"
+      ]
+    },
+    {
+      "model":"Porsche 911",
+      "car_id": "car04",
+      "type":"sport",
+      "wheels":"standard",
+      "parts":[
+        "engine",
+        "transmission",
+        "suspension",
+        "brakes",
+        "aerodynamic components"
+      ]
+    }
+  ]
