@@ -6,7 +6,7 @@ export default function CarList({ data }: { data: any }) {
   return (
     <Link href={`/cars/${data.car_id}`}>
       <div className="bg-white rounded-lg shadow">
-        <Image className="rounded-t-md" src="https://placehold.co/600x400/png" width="600" height="400" alt={data.car_id} />
+        <Image className="rounded-t-md" src="https://placehold.co/320x240/png" width="600" height="400" alt={data.car_id} />
         <div className='p-3'>
           <h2 className="text-slate-800 text-2xl font-semibold mt-2">{data?.model}</h2>
           <p className="text-slate-500 text-sm mb-2">type: <span className="font-light">{data?.type}</span></p>
@@ -18,7 +18,7 @@ export default function CarList({ data }: { data: any }) {
             {
               data.parts.map((part: string) => {
                 return (
-                  <li className="border rounded-lg bg-slate-100 text-xs mr-1 my-1 py-1 px-2">{part}</li>
+                  <li key={`car-${part}`} className="border rounded-lg bg-slate-100 text-xs mr-1 my-1 py-1 px-2">{part}</li>
                 )
               })
             }
