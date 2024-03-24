@@ -2,7 +2,6 @@ import CarList from "@/app/components/CarList";
 import { fetchData } from "@/utils/fetchApi";
 
 export default async function CarPage() {
-
   const res = await fetchData(`${process.env.NEXT_PUBLIC_API}/cars`)
   return (
     <main className="container mx-auto py-8 px-4">
