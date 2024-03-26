@@ -1,6 +1,9 @@
-import CarList from "@/app/components/CarList";
+
+import { lazy, Suspense } from "react";
 import { fetchData } from "@/utils/fetchApi";
+
 import SearchInput from "@/app/components/SearchInput";
+const CarList = lazy(() => import("@/app/components/CarList"))
 
 export default async function Page({ searchParams }: { searchParams?: { query?: string } }) {
 
@@ -12,14 +15,16 @@ export default async function Page({ searchParams }: { searchParams?: { query?: 
       <h1 className="text-3xl font-bold mb-8">Car List</h1>
       <SearchInput />
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
-        {
-          res && res.map((item: any) => {
-            return (
-              <CarList key={item.car_id} data={item} />
-            )
-          })
-        }
+        <Suspense fallback="loading..">
+          {
+            res && res.map((item: any) => {
+              return (
+                <CarList key={item.car_id} data={item} />
+              )
+            })
+          }
+        </Suspense>
       </div>
-    </main>
+    </main >
   )
 }
