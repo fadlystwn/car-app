@@ -1,12 +1,13 @@
-import CarPage from "./cars/page";
 import ErrorBoundary from "./components/ErrorBoundary";
+import Navbar from "./components/Navigation";
 
-export default async function Home() {
+export default async function Page() {
 
   return (
     <main className="container mx-auto py-8 px-4">
       <ErrorBoundary>
-        <CarPage />
+        <Navbar />
+
       </ErrorBoundary>
     </main>
   );
